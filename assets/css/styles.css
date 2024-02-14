@@ -72,7 +72,7 @@ a {
 /* NAVBAR */
 main .hero-wrap {
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 90px);
     background-color: #e6f0ff;
 }
 
@@ -129,11 +129,8 @@ main .hero-wrap {
 
 /* HERO-INFO */
 
-.hero {
-    padding: 130px;
-}
-
 .hero-wrap .hero-info {
+    padding-top: 130px;
     width: 50.4%;
 }
 
